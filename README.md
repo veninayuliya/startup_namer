@@ -27,3 +27,20 @@ Setelah diperbaiki
 <img src="images/4.4.jpg">
 
 Praktikum ini menggunakan class WordPair dari package `english_words` untuk menampilkan pasangan kata acak dengan properti `asPascalCase` untuk mengkapitalisasikan huruf depan setiap kata
+
+## 5. Add a stateful widget
+
+Menambahkan widget stateful `RandomWords` dan membuat class `_RandomWordsState`.
+<img src="images/5.1.jpg" width="700">
+
+Mengubah method `build()` di `_RandomWordsState`.<br>
+<img src="images/5.2.jpg" width="700">
+
+Mengubah kode program pada `MyApp`.<br>
+<img src="images/5.3.jpg" width="700">
+
+#### Output
+
+![](images/5.4.jpg)
+
+Praktikum ini sama seperti praktikum sebelumnya, akan tetapi disini class `WordPair` dari package `english_words` disimpan di dalam stateful widget `RandomWords`.
