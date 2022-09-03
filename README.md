@@ -8,17 +8,17 @@ Write your first Flutter app, part 1
 
 ## 4. Use an external package
 
-### Menambahkan package `english_words`
+Menambahkan package `english_words`
 
 <img src="images/4.1.jpg" width="800">
 
-### Menggunakan package `english_words`
+Menggunakan package `english_words`
 
-#### Terdapat error
+Terdapat error
 
 <img src="images/4.2.jpg" width="700">
 
-#### Setelah diperbaiki
+Setelah diperbaiki
 
 <img src="images/4.3.jpg" width="700">
 
