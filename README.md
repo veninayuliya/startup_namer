@@ -30,7 +30,7 @@ Praktikum ini menggunakan class WordPair dari package `english_words` untuk mena
 
 ## 5. Add a stateful widget
 
-Menambahkan widget stateful `RandomWords` dan membuat class `_RandomWordsState`.
+Menambahkan widget stateful `RandomWords` dan membuat class `_RandomWordsState`.<br>
 <img src="images/5.1.jpg" width="700">
 
 Mengubah method `build()` di `_RandomWordsState`.<br>
@@ -44,3 +44,18 @@ Mengubah kode program pada `MyApp`.<br>
 ![](images/5.4.jpg)
 
 Praktikum ini sama seperti praktikum sebelumnya, akan tetapi disini class `WordPair` dari package `english_words` disimpan di dalam stateful widget `RandomWords`.
+
+## 6. Create an infinite scrolling ListView
+
+Menambahkan variabel ke dalam class `_RandomWordsState` yaitu `_suggestions` untuk menyimpan pasangan kata yang disarankan dan `_biggerFontvariabel` untuk membuat ukuran font lebih besar.
+<img src="images/6.1.jpg" width="700">
+
+Memperbarui method `build` pada class `_RandomWordsState` dengan menggunakan `ListView`<br>
+<img src="images/6.2.jpg" width="700">
+
+Memperbarui method `build` pada class `MyApp`<br>
+<img src="images/6.3.jpg" width="700">
+
+#### Output
+
+![](images/6.4.jpg)
